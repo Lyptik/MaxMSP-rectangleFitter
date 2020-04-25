@@ -12,7 +12,6 @@ setinletassist(0,"scene");
 
 // global vars
 g = new Global("slotManagerGlobal");
-g.protocolVersion = 2; // default to protocol V2
 
 // script vars
 var sceneWidthID;
@@ -68,6 +67,11 @@ function setProtocolVersion(_version)
 	}
 }
 
+function loadbang()
+{
+	init();
+}
+
 // --------------  Internal functions ---------------------
 
 init.local = 1;
@@ -88,7 +92,9 @@ function init()
 		sceneWidthID = 2;
 		sceneHeightID = 3;
 	} else {
-		error("protocolVersion needs to be set !\n");
+		g.protocolVersion = 2; // default to protocol V2
+		sceneWidthID = 2;
+		sceneHeightID = 3;
 	}	
 }
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1361.0, 913.0 ],
+		"rect" : [ 995.0, 85.0, 436.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -102,17 +102,6 @@
 					"varname" : "node8",
 					"xplace" : [ 0.083333333333333 ],
 					"yplace" : [ 0.083333333333333 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 228.0, 279.0, 32.0, 22.0 ],
-					"text" : "print"
 				}
 
 			}
@@ -342,9 +331,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 111.352000000000004, 464.0, 178.295999999999992, 184.0 ],
+					"patching_rect" : [ 119.106212615966797, 464.0, 162.787574768066406, 184.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 118.352000000000004, 327.0, 178.295999999999992, 184.0 ],
+					"presentation_rect" : [ 126.106212615966797, 327.0, 162.787574768066406, 184.0 ],
 					"varname" : "node",
 					"xplace" : [ 0.083333333333333 ],
 					"yplace" : [ 0.083333333333333 ]
@@ -403,7 +392,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "rectangleFItter.js",
-				"bootpath" : "~/code/maxmsp/rectangleFitter",
+				"bootpath" : "~/code/maxmsp/maxMSP-rectangle-fitter",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
